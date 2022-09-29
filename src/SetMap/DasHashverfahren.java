@@ -1,2 +1,4 @@
-package SetMap;public class DasHashverfahren {
+package SetMap;
+
+public class DasHashverfahren {
 }

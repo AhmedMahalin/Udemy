@@ -1,15 +1,12 @@
-package OOP1;
+package OPP5;
 
-public class Hund {
+public class Hund extends Tier{
     //Eigenschaften
-    String name;
-    int alter;
-    String rasse;
+        int zaehne;
 
-    public Hund(String name, int alter, String rasse) {
-        this.name = name; // this.name geht nach obben in den namen und = name weißt ihm dann ein x beliebiges  varaible hinzu
-        this.alter = alter;
-        this.rasse = rasse;
+    public Hund(String name, int groeße, int gewicht) {
+        super(name,groeße ,gewicht);
+        this.zaehne = zaehne;
 
 
     }
@@ -19,4 +16,13 @@ public class Hund {
     }
 
 
+    @Override
+    public void essen() {
+        System.out.println("Der Hund: " + this.name + " isst. ");
+    }
+
+    @Override
+    public void atmen() {
+        System.out.println("Der Hund: " + this.name+ "atmet");
+    }
 }

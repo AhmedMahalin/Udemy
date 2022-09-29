@@ -1,2 +1,1 @@
-package Rechenaufgaben;public class fakultaet {
-}
+package Rechenaufgaben;

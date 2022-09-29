@@ -1,11 +1,11 @@
 package Collection;
 
-public class Kontakte {
+public class Kontakt {
 
     private String name;
     private String telefonnummer;
 
-    public Kontakte(String name, String telefonnummer) {
+    public Kontakt(String name, String telefonnummer) {
         this.name = name;
         this.telefonnummer = telefonnummer;
     }
@@ -26,8 +26,8 @@ public class Kontakte {
         this.telefonnummer = telefonnummer;
     }
 
-    public static Kontakte erstelleKontakt(String name, String telefonnummer){
-      return new Kontakte(name,telefonnummer);
+    public static Kontakt erstelleKontakt(String name, String telefonnummer){
+      return new Kontakt(name,telefonnummer);
 
     }
 

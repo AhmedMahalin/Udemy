@@ -1,4 +1,6 @@
-package DS_übung;
+package Collection;
+
+import java.util.ArrayList;
 
 public class Vergleicheequals {
     public static void main(String[] args) {
@@ -13,5 +15,7 @@ public class Vergleicheequals {
             System.out.println("Die Namen sind nicht gleich");
 
         }
+
+
     }
 }
